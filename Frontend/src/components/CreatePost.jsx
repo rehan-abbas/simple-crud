@@ -15,7 +15,7 @@ const CreatePost = () => {
 
     const adduser = { name, email, age };
 
-    const response = await fetch("https://simple-crud-wmoo.onrender.com, {
+    const response = await fetch("https://simple-crud-wmoo.onrender.com", {
       method: "POST",
       body: JSON.stringify(adduser),
       headers: {
