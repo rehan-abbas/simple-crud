@@ -7,7 +7,7 @@ const AllPosts = () => {
 
   async function getPosts() {
     try {
-      const response = await fetch("http://localhost:4000/");
+      const response = await fetch("https://simple-crud-wmoo.onrender.com");
       const result = await response.json();
       console.log("API response:", result);
 
