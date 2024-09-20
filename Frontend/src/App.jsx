@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import CreatePost from "./components/createPost";
-import AllPosts from "./components/allPosts";
-import EditPost from "./components/editPost";
+import CreatePost from "./components/CreatePost";
+import AllPosts from "./components/AllPosts";
+import EditPost from "./components/EditPost";
 
 function App() {
   return (
